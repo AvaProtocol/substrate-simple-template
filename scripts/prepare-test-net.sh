@@ -25,7 +25,7 @@ generate_address_and_public_key() {
 	ADDRESS=$(generate_address $1 $2 $3)
 	PUBLIC_KEY=$(generate_public_key $1 $2 $3)
 
-	printf "//$ADDRESS\nhex![\"${PUBLIC_KEY#'0x'}\"].unchecked_into(),"
+	printf "// $ADDRESS\nhex![\"${PUBLIC_KEY#'0x'}\"].unchecked_into(),"
 }
 
 generate_address_and_account_id() {
@@ -37,7 +37,7 @@ generate_address_and_account_id() {
 		INTO="into"
 	fi
 
-	printf "//$ADDRESS\nhex![\"${ACCOUNT#'0x'}\"].$INTO(),"
+	printf "// $ADDRESS\nhex![\"${ACCOUNT#'0x'}\"].$INTO(),"
 }
 
 V_NUM=$1
