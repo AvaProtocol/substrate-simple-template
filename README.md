@@ -212,7 +212,7 @@ Launch first node with the public key above.
 ```
 
 #### Setup node session keys
-- Copy validators' session keys to babe1~3, gran1~3, imol1~imol3, audi1~audi3, add prefix 0x.
+- Copy validators' session keys to babe1 ~ 3, gran1 ~ 3, imol1 ~ 3, audi1 ~ 3, add prefix 0x.
 
 - Fill right secret phrase
 
