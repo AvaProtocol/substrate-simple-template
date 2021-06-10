@@ -12,7 +12,7 @@ First, complete the [basic Rust setup instructions](https://github.com/substrate
 
 configure the Rust toolchain
 
-```sh
+```bash
 rustup default nightly-2021-03-01
 rustup target add wasm32-unknown-unknown --toolchain nightly-2021-03-01
 ```
@@ -21,7 +21,7 @@ rustup target add wasm32-unknown-unknown --toolchain nightly-2021-03-01
 
 Use Rust's native `cargo` command to build and launch the template node:
 
-```sh
+```bash
 cargo run --release -- --dev --tmp
 ```
 
@@ -30,7 +30,7 @@ cargo run --release -- --dev --tmp
 The `cargo run` command will perform an initial build. Use the following command to build the node
 without launching it:
 
-```sh
+```bash
 cargo build --release
 ```
 
@@ -39,7 +39,7 @@ cargo build --release
 Once the project has been built, the following command can be used to explore all parameters and
 subcommands:
 
-```sh
+```bash
 ./target/release/substrate -h
 ```
 
@@ -171,7 +171,7 @@ cargo build --release
 #### Config root key
 
 Generate pubic key from a secret phrase.
-```
+```bash
 subkey inspect --scheme sr25519 "royal novel glad piece waste napkin little pioneer decline fancy train sell"
 ````
 
@@ -217,7 +217,7 @@ Launch first node with the public key above.
 - Fill right secret phrase
 
 - Run command to setup node session keys
-  ```
+  ```bash
   cd scripts/session_keys
   sh run.sh
   ```
