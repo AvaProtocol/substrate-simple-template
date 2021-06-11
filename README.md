@@ -154,7 +154,7 @@ hex!["0c2d3a4c604c4ad68e285cc1c401dd2665c1cd7193b16d4d9c854c27a9238a1a"].uncheck
 ),
 ```
 
-Replace the session keys in `node/cli/src/chain_spec.rs`
+Replace the session keys from vec![...] in node/cli/src/chain_spec.rs with above generated keys.
 
 ```rust
 fn staging_testnet_config_genesis() -> GenesisConfig {
