@@ -78,7 +78,7 @@ to interact with your chain. [Click here](https://polkadot.js.org/apps/#/explore
 
 #### Generate node key
 
-Generate pubic key from a secret phrase.
+Generate pubic key from a secret phrase. This secret phrase is dedicated to development and cannot be used in any other place.
 
 ```bash
 subkey inspect --scheme ed25519 "fire penalty pony chase gift loan grid mule tape wrestle stuff salute"
@@ -170,7 +170,8 @@ cargo build --release
 
 #### Config root key
 
-Generate pubic key from a secret phrase.
+Generate pubic key from a secret phrase. This secret phrase is dedicated to development and cannot be used in any other place.
+
 ```bash
 subkey inspect --scheme sr25519 "royal novel glad piece waste napkin little pioneer decline fancy train sell"
 ````
