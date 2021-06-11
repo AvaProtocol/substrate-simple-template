@@ -78,7 +78,7 @@ to interact with your chain. [Click here](https://polkadot.js.org/apps/#/explore
 
 #### Generate node key
 
-Generate pubic key from a secret phrase. This secret phrase is dedicated to development and cannot be used in any other place.
+Generate pubic key from a secret phrase. This secret phrase is dedicated to development and should not be used in any other places.
 
 ```bash
 subkey inspect --scheme ed25519 "fire penalty pony chase gift loan grid mule tape wrestle stuff salute"
@@ -170,7 +170,7 @@ cargo build --release
 
 #### Config root key
 
-Generate pubic key from a secret phrase. This secret phrase is dedicated to development and cannot be used in any other place.
+Generate pubic key from a secret phrase. This secret phrase is dedicated to development and should not be used in any other places.
 
 ```bash
 subkey inspect --scheme sr25519 "royal novel glad piece waste napkin little pioneer decline fancy train sell"
@@ -227,22 +227,7 @@ Launch first node with the public key above.
 Re-launch nodes and the network can finalize blocks.
 
 ```
-2021-06-11 09:40:43  It isn't safe to expose RPC publicly without a proxy server that filters available set of RPC methods.
-2021-06-11 09:40:43  Substrate Node
-2021-06-11 09:40:43  ✌️  version 2.0.0-4bd3342-aarch64-macos
-2021-06-11 09:40:43  ❤️  by Parity Technologies <admin@parity.io>, 2017-2021
-2021-06-11 09:40:43  📋 Chain specification: Staging Testnet
-2021-06-11 09:40:43  🏷 Node name: validator3
-2021-06-11 09:40:43  👤 Role: AUTHORITY
-2021-06-11 09:40:43  💾 Database: RocksDb at data/validator3/chains/staging_testnet/db
-2021-06-11 09:40:43  ⛓  Native runtime: node-265 (substrate-node-1.tx2.au10)
-2021-06-11 09:40:43  Using default protocol ID "sup" because none is configured in the chain specs
-2021-06-11 09:40:43  Using default protocol ID "sup" because none is configured in the chain specs
-2021-06-11 09:40:43  🏷 Local node identity is: 12D3KooWHr73uaPubinG1UkirN9pUJsq8NvtXCb5TPi7PvEDjqx3
-2021-06-11 09:40:43  📦 Highest known block at #1
-2021-06-11 09:40:43  Listening for new connections on 0.0.0.0:9947.
 2021-06-11 09:40:43  👶 Starting BABE Authorship worker
-2021-06-11 09:40:43  ✨ Imported #2 (0x21df…fa51)
 2021-06-11 09:40:43  🔍 Discovered new external address for our node: /ip4/127.0.0.1/tcp/30335/p2p/12D3KooWHr73uaPubinG1UkirN9pUJsq8NvtXCb5TPi7PvEDjqx3
 2021-06-11 09:40:45  🙌 Starting consensus session on top of parent 0x21df321b78a2c9fd5aec983a26e20bca34936dc03574e9b594abb32fd88bfa51
 2021-06-11 09:40:45  🎁 Prepared block for proposing at 3 [hash: 0x80e6a0dd81ec86587f1873a8f713f6e08854318cc798e56f8ab85dac1b739457; parent_hash: 0x21df…fa51; extrinsics (1): [0xe839…aa59]]
@@ -252,7 +237,4 @@ Re-launch nodes and the network can finalize blocks.
 2021-06-11 09:40:48  💤 Idle (2 peers), best: #4 (0x4bdc…aa87), finalized #1 (0xad8e…f0aa), ⬇ 5.0kiB/s ⬆ 4.8kiB/s
 2021-06-11 09:40:51  ✨ Imported #5 (0x4064…6d67)
 2021-06-11 09:40:53  💤 Idle (2 peers), best: #5 (0x4064…6d67), finalized #3 (0xf18c…97f0), ⬇ 2.5kiB/s ⬆ 2.2kiB/s
-2021-06-11 09:40:54  ✨ Imported #6 (0xeb2d…88a7)
-2021-06-11 09:40:57  ✨ Imported #7 (0x1f7b…431b)
-2021-06-11 09:40:58  💤 Idle (2 peers), best: #7 (0x1f7b…431b), finalized #5 (0x4064…6d67), ⬇ 2.7kiB/s ⬆ 2.6kiB/s
 ```
