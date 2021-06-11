@@ -6,7 +6,7 @@ if [ "$#" -ne 1 ]; then
 	exit 1
 fi
 
-# Put your mnemonic here.
+# Copy paste your mnemonic here.
 SECRET="panda dose welcome ostrich brief pull lawn table arrest worth ranch faculty"
 
 generate_account_id() {
