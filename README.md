@@ -227,11 +227,6 @@ Launch first node with the public key above.
 Re-launch nodes and the network can finalize blocks.
 
 ```
-2021-06-11 09:40:43  👶 Starting BABE Authorship worker
-2021-06-11 09:40:43  🔍 Discovered new external address for our node: /ip4/127.0.0.1/tcp/30335/p2p/12D3KooWHr73uaPubinG1UkirN9pUJsq8NvtXCb5TPi7PvEDjqx3
-2021-06-11 09:40:45  🙌 Starting consensus session on top of parent 0x21df321b78a2c9fd5aec983a26e20bca34936dc03574e9b594abb32fd88bfa51
-2021-06-11 09:40:45  🎁 Prepared block for proposing at 3 [hash: 0x80e6a0dd81ec86587f1873a8f713f6e08854318cc798e56f8ab85dac1b739457; parent_hash: 0x21df…fa51; extrinsics (1): [0xe839…aa59]]
-2021-06-11 09:40:45  🔖 Pre-sealed block for proposal at 3. Hash now 0xf18c03e30d8530499c5414b518b0863cf773be5b6158a7a9adc6112a7f2a97f0, previously 0x80e6a0dd81ec86587f1873a8f713f6e08854318cc798e56f8ab85dac1b739457.
 2021-06-11 09:40:45  ✨ Imported #3 (0xf18c…97f0)
 2021-06-11 09:40:48  ✨ Imported #4 (0x4bdc…aa87)
 2021-06-11 09:40:48  💤 Idle (2 peers), best: #4 (0x4bdc…aa87), finalized #1 (0xad8e…f0aa), ⬇ 5.0kiB/s ⬆ 4.8kiB/s
