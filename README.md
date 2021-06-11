@@ -224,7 +224,9 @@ Launch first node with the public key above.
   ```
 
 #### Re-launch nodes
-Re-launch nodes and the network can finalize blocks.
+Re-launch all 3 nodes by running commands in section [Launch first node](#launch-first-node) and [Launch other two nodes](#launch-other-two-nodes).
+
+The network will finalize blocks.
 
 ```
 2021-06-11 09:40:45  ✨ Imported #3 (0xf18c…97f0)
